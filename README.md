@@ -81,13 +81,13 @@ Key Techniques: Data Cleaning, Data Merging, Exploratory Data Analysis (EDA), Li
 
 ## Results
 
-    - Socioeconomic factors influence school performance, explaining about 62% of the variation in ACT scores.
+ - Socioeconomic factors influence school performance, explaining about 62% of the variation in ACT scores.
+ 
+ - Higher community education levels positively predict ACT scores.
 
-    - Higher community education levels positively predict ACT scores.
+ - Student poverty and local unemployment negatively predict ACT scores.
 
-    - Student poverty and local unemployment negatively predict ACT scores.
-
-    - Median household income and percent of children in married-couple families were not significant after controlling for other variables.
+ - Median household income and percent of children in married-couple families were not significant after controlling for other variables.
 
 ## Authors
 
