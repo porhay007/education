@@ -64,7 +64,7 @@ Key Techniques: Data Cleaning, Data Merging, Exploratory Data Analysis (EDA), Li
 
 - Identified key predictors:
 
-- Positive: Percent of adults with college degrees.
+  - Positive: Percent of adults with college degrees.
 
   - Negative: Student poverty (percent on free/reduced lunch) and local unemployment rate.
 
