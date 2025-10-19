@@ -24,12 +24,11 @@ Key Techniques: Data Cleaning, Data Merging, Exploratory Data Analysis (EDA), Li
 ├── requirements.txt # Project dependencies
 └── README.md # Project documentation
 
-
 ## DATA
 
- - EdGap Data: EdGap_data.xlsx
+- EdGap Data: EdGap_data.xlsx
 
- - School Information (CCD): school_informatiom_sch_029_1617_w_1a_11212017.csv
+- School Information (CCD): school_informatiom_sch_029_1617_w_1a_11212017.csv
 
 ## Analysis
 
@@ -73,21 +72,21 @@ Key Techniques: Data Cleaning, Data Merging, Exploratory Data Analysis (EDA), Li
 
 ## Files
 
- - Notebook performing analysis: school_performance_analysis.ipynb
+- Notebook performing analysis: school_performance_analysis.ipynb
 
- - Cleaned dataset: cleaned_education_data.csv
+- Cleaned dataset: cleaned_education_data.csv
 
- - Final report : Education_Project_Report.pdf
+- Final report : Education_Project_Report.pdf
 
 ## Results
 
- - Socioeconomic factors influence school performance, explaining about 62% of the variation in ACT scores.
- 
- - Higher community education levels positively predict ACT scores.
+- Socioeconomic factors influence school performance, explaining about 62% of the variation in ACT scores.
 
- - Student poverty and local unemployment negatively predict ACT scores.
+- Higher community education levels positively predict ACT scores.
 
- - Median household income and percent of children in married-couple families were not significant after controlling for other variables.
+- Student poverty and local unemployment negatively predict ACT scores.
+
+- Median household income and percent of children in married-couple families were not significant after controlling for other variables.
 
 ## Authors
 
@@ -112,8 +111,8 @@ The project uses the following tools and libraries:
 
 ## Acknowledgements
 
-    + Data Sources: EdGap Project and the Common Core of Data (CCD)
+- Data Sources: EdGap Project and the Common Core of Data (CCD)
 
-    + Tools: Python, Jupyter Notebook
+- Tools: Python, Jupyter Notebook
 
-    + Guidance: Seattle University’s DATA 5100 course
+- Guidance: Seattle University’s DATA 5100 course
