@@ -1,16 +1,15 @@
-## Introduction
-
-School Performance and Socioeconomic Factors Analysis
+# School Performance and Socioeconomic Factors Analysis
 
 ## Project Overview
 
-This project investigates the relationship between school performance, measured by average ACT scores, and socioeconomic factors. Using datasets from EdGap and the Common Core of Data (CCD), we perform exploratory data analysis, data cleaning, and regression modeling to determine which factors are most predictive of school performance.
+This project investigates the relationship between school performance, measured by average ACT scores, and socioeconomic factors such as community education, household income, unemployment, family structure, and student poverty.
+Using datasets from EdGap and the Common Core of Data (CCD), the project performs data cleaning, exploratory data analysis (EDA), and linear regression modeling to determine which factors most strongly predict school performance.
 
-    - Objective: Examine how community education, household income, unemployment rate, family structure, and student poverty relate to ACT scores.
+Objective: Examine how socioeconomic characteristics affect ACT scores across U.S. schools.
 
-    - Domain: Education / Socioeconomic Data Science
+Domain: Education / Socioeconomic Data Science
 
-    - Key Techniques: Data Cleaning, Data Merging, Exploratory Data Analysis (EDA), Linear Regression, Data Visualization
+Key Techniques: Data Cleaning, Data Merging, Exploratory Data Analysis (EDA), Linear Regression, Data Visualization
 
 ## Project Structure
 
@@ -21,7 +20,7 @@ This project investigates the relationship between school performance, measured 
 ├── code/ # Jupyter notebooks
 │ └── school_performance_analysis.ipynb
 ├── reports/  
-│ └── Education_Project_Report.pdf
+│ └── Education_Project_Report.pdf # Final report
 ├── requirements.txt # Project dependencies
 └── README.md # Project documentation
 
@@ -53,7 +52,7 @@ This project investigates the relationship between school performance, measured 
 
      - act_vs_median – difference from median ACT score.
 
-3. Exploratory Analysis
+3. Exploratory Data Analysis (EDA)
 
    - Visualized ACT scores versus socioeconomic factors using scatterplots and regression plots.
 
@@ -61,21 +60,23 @@ This project investigates the relationship between school performance, measured 
 
 4. Regression Analysis
 
-   - Performed linear regression (OLS) using raw and standardized predictors.
+   - Performed OLS regression using both raw and standardized predictors.
 
-   - Identified significant predictors:
+   - Identified key predictors:
 
      - Positive: Percent of adults with college degrees.
 
-     - Negative: Student poverty (percent on free/reduced lunch) and local unemployment.
+     - Negative: Student poverty (percent on free/reduced lunch) and local unemployment rate.
 
-   - Student poverty has the strongest relative impact among significant predictors.
+   - Found that student poverty has the strongest overall impact on ACT scores.
 
 ## Files
 
     - Notebook performing analysis: school_performance_analysis.ipynb
 
     - Cleaned dataset: cleaned_education_data.csv
+
+    - Final report : Education_Project_Report.pdf
 
 ## Results
 
@@ -89,16 +90,29 @@ This project investigates the relationship between school performance, measured 
 
 ## Authors
 
-Porhay Rouen — porhay007
+Porhay Rouen — [porhay007](https://github.com/porhay007)
 
 ## License
 
 This project is licensed under the MIT License — see the LICENSE file for details.
 
+## Requirements
+
+The project uses the following tools and libraries:
+
+- Python 3.10+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- plotly
+- statsmodels
+- scikit-learn
+
 ## Acknowledgements
 
-    - EdGap and Common Core of Data (CCD) for datasets
+    + Data Sources: EdGap Project and the Common Core of Data (CCD)
 
-    - Python libraries: pandas, numpy, matplotlib, seaborn, plotly, statsmodels, scikit-learn
+    + Tools: Python, Jupyter Notebook
 
-    - Seattle University DATA 5100 course for project guidance
+    + Guidance: Seattle University’s DATA 5100 course
