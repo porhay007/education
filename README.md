@@ -24,11 +24,12 @@ Key Techniques: Data Cleaning, Data Merging, Exploratory Data Analysis (EDA), Li
 ├── requirements.txt # Project dependencies
 └── README.md # Project documentation
 
+
 ## DATA
 
-    - EdGap Data: EdGap_data.xlsx
+ - EdGap Data: EdGap_data.xlsx
 
-    - School Information (CCD): school_informatiom_sch_029_1617_w_1a_11212017.csv
+ - School Information (CCD): school_informatiom_sch_029_1617_w_1a_11212017.csv
 
 ## Analysis
 
@@ -72,11 +73,11 @@ Key Techniques: Data Cleaning, Data Merging, Exploratory Data Analysis (EDA), Li
 
 ## Files
 
-    - Notebook performing analysis: school_performance_analysis.ipynb
+ - Notebook performing analysis: school_performance_analysis.ipynb
 
-    - Cleaned dataset: cleaned_education_data.csv
+ - Cleaned dataset: cleaned_education_data.csv
 
-    - Final report : Education_Project_Report.pdf
+ - Final report : Education_Project_Report.pdf
 
 ## Results
 
