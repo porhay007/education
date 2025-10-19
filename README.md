@@ -34,41 +34,41 @@ Key Techniques: Data Cleaning, Data Merging, Exploratory Data Analysis (EDA), Li
 
 1. Load and Clean Data
 
-   - Imported EdGap and CCD datasets.
+- Imported EdGap and CCD datasets.
 
-   - Removed duplicates and out-of-range values.
+- Removed duplicates and out-of-range values.
 
-   - Handled missing values for key variables such as ACT scores, income, unemployment, and percent of students on free/reduced lunch.
+- Handled missing values for key variables such as ACT scores, income, unemployment, and percent of students on free/reduced lunch.
 
 2. Merge and Prepare Data
 
-   - Merged datasets using school IDs (NCESSCH).
+- Merged datasets using school IDs (NCESSCH).
 
-   - Selected and renamed relevant columns.
+- Selected and renamed relevant columns.
 
-   - Created derived variables:
+- Created derived variables:
 
-     - income_k – median household income in thousands.
+  - income_k – median household income in thousands.
 
-     - act_vs_median – difference from median ACT score.
+  - act_vs_median – difference from median ACT score.
 
 3. Exploratory Data Analysis (EDA)
 
-   - Visualized ACT scores versus socioeconomic factors using scatterplots and regression plots.
+- Visualized ACT scores versus socioeconomic factors using scatterplots and regression plots.
 
-   - Created state-level map of average ACT scores.
+- Created state-level map of average ACT scores.
 
 4. Regression Analysis
 
-   - Performed OLS regression using both raw and standardized predictors.
+- Performed OLS regression using both raw and standardized predictors.
 
-   - Identified key predictors:
+- Identified key predictors:
 
-     - Positive: Percent of adults with college degrees.
+- Positive: Percent of adults with college degrees.
 
-     - Negative: Student poverty (percent on free/reduced lunch) and local unemployment rate.
+  - Negative: Student poverty (percent on free/reduced lunch) and local unemployment rate.
 
-   - Found that student poverty has the strongest overall impact on ACT scores.
+- Found that student poverty has the strongest overall impact on ACT scores.
 
 ## Files
 
