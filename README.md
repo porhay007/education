@@ -2,8 +2,7 @@
 
 ## Project Overview
 
-This project investigates the relationship between school performance, measured by average ACT scores, and socioeconomic factors such as community education, household income, unemployment, family structure, and student poverty.
-Using datasets from EdGap and the Common Core of Data (CCD), the project performs data cleaning, exploratory data analysis (EDA), and linear regression modeling to determine which factors most strongly predict school performance.
+This project investigates the relationship between school performance, measured by average ACT scores, and socioeconomic factors such as community education levels, household income, local unemployment rates, family structure, and student poverty. Using datasets from EdGap and the Common Core of Data (CCD), we perform data cleaning, exploratory data analysis (EDA), and linear regression modeling to identify the factors that most strongly predict school performance. Techniques include data merging, visualization, and statistical modeling using Python.
 
 Objective: Examine how socioeconomic characteristics affect ACT scores across U.S. schools.
 
@@ -23,6 +22,14 @@ Key Techniques: Data Cleaning, Data Merging, Exploratory Data Analysis (EDA), Li
 │ └── Education_Project_Report.pdf # Final report
 ├── requirements.txt # Project dependencies
 └── README.md # Project documentation
+
+- data/: Contains raw and cleaned datasets used for analysis.
+
+- code/: Jupyter notebook performing data cleaning, EDA, and modeling.
+
+- reports/: Final PDF report summarizing findings.
+
+- requirements.txt: Python packages required to run the analysis.
 
 ## DATA
 
