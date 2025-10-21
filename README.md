@@ -13,13 +13,13 @@ Key Techniques: Data Cleaning, Data Merging, Exploratory Data Analysis (EDA), Li
 ## Project Structure
 
 ├── data/ # Raw and cleaned data files
-│   ├── EdGap_data.xlsx
-│   ├── school_informatiom_sch_029_1617_w_1a_11212017.csv
-│   └── cleaned_education_data.csv # Cleaned dataset
+│ ├── EdGap_data.xlsx
+│ ├── school_information_sch_029_1617_w_1a_11212017.csv
+│ └── cleaned_education_data.csv # Cleaned dataset
 ├── code/ # Jupyter notebooks
-│   └── school_performance_analysis.ipynb
-├── reports/  
-│   └── Education_Project_Report.pdf # Final report
+│ └── school_performance_analysis.ipynb
+├── reports/
+│ └── Education_Project_Report.pdf # Final report
 ├── requirements.txt # Project dependencies
 └── README.md # Project documentation
 
